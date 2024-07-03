@@ -1,0 +1,23 @@
+.hero {
+  position: relative;
+  text-align: center;
+  color: #151516;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  border-color: bisque;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: bisque;
+}

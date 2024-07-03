@@ -1,18 +1,17 @@
 import "./HeroStyles.css";
-import AirBus from "../assets/airbus.jpg";
 
-function Hero() {
+function Hero(props) {
   return (
-    <>
-      <div className="hero">
-        <img src={AirBus} alt="Air Bus" />
-        <div className="hero-text">
-          <h1>Your Journey Your Story</h1>
-          <p>Choose Your Favourite Destination.</p>
-          <a href="/">Travel Plan</a>
-        </div>
+    <div className={props.cName}>
+      <img src={props.imgSrc} alt="AirBus" />
+      <div className="hero-text">
+        <h1>{props.title}</h1>
+        <p>{props.text}</p>
+        <a href={props.url} className={props.btnClass}>
+          {props.buttonText}
+        </a>
       </div>
-    </>
+    </div>
   );
 }
 
