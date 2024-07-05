@@ -1,7 +1,12 @@
 function About() {
   return (
     <>
-      <h1>This is About</h1>
+       <Navbar />
+      <Hero
+        cName="hero"
+        imgSrc={AirBus}
+        title="Your Journey Your Story"
+        text="Choose Your Favourite Destination."
     </>
   );
 }
