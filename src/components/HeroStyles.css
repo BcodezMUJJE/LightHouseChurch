@@ -34,8 +34,9 @@
 
 .hero-text p {
   font-size: 1.3rem;
-  color: #fff;
+  color:  #34282C;
   padding: 0.5rem 0 2rem 0;
+  font-weight: bold;
 }
 
 .hero-text .show {
