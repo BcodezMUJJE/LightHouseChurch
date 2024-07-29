@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import CableCar from "../assets/cable.jpg";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About() {
   return (
@@ -11,8 +12,8 @@ function About() {
         cName="hero"
         imgSrc={CableCar}
         title="About Travify"
-        text="Our mission is to deliver inspiring and enriching travel experiences. We craft unique, personalized adventures tailored to each traveler's preferences, ensuring every trip meets their individual needs."
       />
+      <AboutUs/>
       <Footer/>
     </>
   );
