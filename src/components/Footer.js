@@ -5,8 +5,8 @@ const Footer = () =>{
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1>Travify</h1>
-                    <p>Travel With Us To Your Favourite Destinations</p>
+                    <h1>Lighthouse Grace Church</h1>
+                    <p>Come And Worship With Us</p>
 
                 </div>
                 <div>
@@ -35,9 +35,8 @@ const Footer = () =>{
                 </div>
                 <div>
                     <h4>Community</h4>
-                    <a href="/">Github</a>
-                    <a href="/">Issues</a>
-                    <a href="/">Projects</a>
+                    <a href="/">facebook</a>
+                    <a href="/">instagram</a>
                     <a href="/">Twitter</a>
                 </div>
                 <div>

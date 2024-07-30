@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AirBus from "../assets/qatar.jpg";
+import AirBus from "../assets/afrigalPraise.jpg";
 import Destination from "../components/Destinations";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
@@ -13,9 +13,9 @@ function Home() {
       <Hero
         cName="hero"
         imgSrc={AirBus}
-        title="Your Journey Your Story"
-        text="Choose Your Favourite Destination."
-        buttonText="Travel Plan"
+        title="Lighthouse Grace Church, Bulindo"
+        text="Welcome to Lighthouse Grace Church, Bulindo Community!"
+        buttonText="Join Community"
         url="/"
         btnClass="show"
       />
