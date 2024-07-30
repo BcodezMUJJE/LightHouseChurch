@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
+import logo from "../assets/logo1.jpeg";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -10,7 +11,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Lighthouse Grace Church</h1>
+        <img src={logo} alt="Lighthouse Grace Church Logo" className="navbar-logo" />
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i

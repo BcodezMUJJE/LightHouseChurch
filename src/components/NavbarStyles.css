@@ -16,10 +16,10 @@
 }
 
 .navbar-logo {
-  color: #222;
-  font-size: 2rem;
-  cursor: pointer;
-}
+    width: 60px; /* Adjust the width as necessary */
+    height: auto; /* Maintain the aspect ratio */
+    cursor: pointer;
+  }
 
 .navbar-menu {
   display: grid;

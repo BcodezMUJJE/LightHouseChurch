@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import CableCar from "../assets/cable.jpg";
+import CableCar from "../assets/worship.jpg";
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
@@ -11,7 +11,7 @@ function About() {
       <Hero
         cName="hero"
         imgSrc={CableCar}
-        title="About Travify"
+        title="About Us"
       />
       <AboutUs/>
       <Footer/>
